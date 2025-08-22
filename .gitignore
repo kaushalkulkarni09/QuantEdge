@@ -1,0 +1,7 @@
+*.o
+*.exe
+__pycache__/
+*.pyc
+build/
+.idea/
+cmake-build-debug/
