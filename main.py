@@ -9,9 +9,7 @@ import yfinance as yf
 import datetime
 import json
 import warnings
-from typing import Union, Optional # Import Union and Optional for backward-compatible type hints
-
-# Suppress common warnings that might arise during numerical operations or data fetching.
+from typing import Union, Optional 
 
 warnings.filterwarnings("ignore", category=FutureWarning, module="yfinance.shared")
 warnings.filterwarnings("ignore", category=RuntimeWarning, message="invalid value encountered in log")
@@ -23,7 +21,7 @@ warnings.filterwarnings("ignore", category=RuntimeWarning, message="divide by ze
 
 
 # --- Configuration and Global Variables ---
-# Application ID for potential Firebase integration (not directly used in this script's core logic)
+
 appId = "hybrid-vol-model-app"
 try:
     if '__app_id' in globals():
@@ -31,7 +29,7 @@ try:
 except NameError:
     pass
 
-# Firebase configuration (similarly, for potential external integration)
+
 firebaseConfig = {}
 try:
     if '__firebase_config' in globals():
