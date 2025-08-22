@@ -1,4 +1,4 @@
-# ssvi_model.py
+# ssvi_model.py Volatility Project
 
 import numpy as np
 from scipy.stats import norm
@@ -2440,6 +2440,6 @@ if __name__ == "__main__":
     print("- Implemented Monte Carlo simulation for pricing Lookback Options (Fixed/Floating Strike). (Done)")
     print("- Integrated volatility from the chosen surface (SSVI, Local Vol, or SABR) into all Monte Carlo path generation. (Done)")
     print("- Added extensive documentation and comments throughout the codebase. (Done)")
-    print("- **Added combined plot for comparing all model implied volatility fits to market data.** (Done)")
+    print("- Added combined plot for comparing all model implied volatility fits to market data. (Done)")
     print("\nThis model now represents a truly advanced and comprehensive framework for volatility surface analysis and exotic option pricing. Further enhancements could include: implementing a PDE solver for Local Volatility pricing, or incorporating jump-diffusion models.")
 
